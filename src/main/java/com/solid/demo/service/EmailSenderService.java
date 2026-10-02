@@ -8,4 +8,9 @@ public class EmailSenderService {
         System.out.println("Email send ");
         return "Email send";
     }
+
+    public void sendWelcomeEmail(String email) {
+        System.out.println("Email send ");
+
+    }
 }
